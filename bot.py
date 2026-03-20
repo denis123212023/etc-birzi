@@ -13,7 +13,7 @@ load_dotenv()
 
 # Configuration
 # Замените эти значения на свои, если не используете .env файл
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8614195963:AAGVIVKz4eR_7kbiBlH3GfV8VcVCNruUV7k")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "7886012147:AAHLHXftYIM-S3DJqdolOYiI4xX3Ock7Cmo")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "6150541410")
 # Список адресов (Топ-4 ETC)
 MONITORED_ADDRESSES_RAW = os.getenv("MONITORED_ADDRESSES", 
