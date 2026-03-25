@@ -46,7 +46,7 @@ async def send_notification(tx_hash, from_addr, to_addr, value):
         f"💳 **От:** `{from_addr}`\n"
         f"📥 **Кому:** `{to_addr}`\n"
         f"💰 **Сумма:** {value:.2f} ETC\n"
-        f"🔗 **Хэш:** [Посмотреть в Blockscout](https://etc.blockscout.com/tx/{tx_hash})"
+        f"🔗 <a href=\"https://etc.blockscout.com/tx/{tx_hash}\">Посмотреть в Blockscout</a>"
     )
     try:
         if ADMIN_CHAT_ID:
